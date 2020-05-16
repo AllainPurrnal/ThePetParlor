@@ -6,7 +6,7 @@ const Appt = require('../../models/Appointment');
 
 // @route   GET api/appts
 // @desc    Get All Appointments
-// @access  Public (Will change to private once Authentication is implemented)
+// @access  Public (Will change to private once authentication is implemented. Will be used for Admin dashboard)
 router.get('/', (req, res) => {
   Appt.find()
   .sort({ date: -1 })
@@ -38,8 +38,8 @@ router.delete('/:id', (req, res) => {
 });
 
 // @route   PUT api/appts
-// @desc    Edit an Appointment
-// @access  Public (Will change to private once Authentication is implemented)
+// @desc    Edit a Users Appointment
+// @access  Private (Waiting for Authentication to be implemented)
 
 
 module.exports = router;
