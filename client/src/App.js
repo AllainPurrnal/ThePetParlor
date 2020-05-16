@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from './logo.svg';
 
 // Site Componnents
-import Navbar from './components/AppNavbar';
+import Navbar from './components/Navbar';
 
 // Site Pages
 import Home from './components/pages/Home';
@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Router>
-        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/" component={Home} /> */}
         <Route path="/Services" component={Services} />
         <Route path="/About" component={About} />
         <Route path="/Contact" component={Contact} />
