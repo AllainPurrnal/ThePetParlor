@@ -1,0 +1,57 @@
+import React, { useState } from 'react';
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+
+import './index.css';
+
+import stock1 from '../../assets/stock1.webp';
+import stock2 from '../../assets/stock2.webp';
+import stock3 from '../../assets/stock3.webp';
+import stock4 from '../../assets/stock4.webp';
+
+const items = [
+  { key: 1, src: stock1 }, { key: 2, src: stock2 }, { key: 3, src: stock3 }, { key: 4, src: stock4 },
+]
+
+const MyCarousel = (props) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [animating, setAnimating] = useState(false);
+
+  const next = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+    setActiveIndex(nextIndex);
+  }
+
+  const previous = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+    setActiveIndex(nextIndex);
+  }
+
+  const goToIndex = (newIndex) => {
+    if (animating) return;
+    setActiveIndex(newIndex);
+  }
+
+  const slides = items.map((item) => {
+    return (
+      <CarouselItem onExiting={() => setAnimating(true)} onExited={() => setAnimating(false)} key={item.key} >
+        <img src={item.src} />
+        {/* <CarouselCaption captionText={item.caption} captionHeader={item.caption} /> */}
+      </CarouselItem>
+    );
+  });
+  
+  return (
+    <div className="carousel-wrapper">
+      <Carousel activeIndex={activeIndex} next={next} previous={previous} >
+        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+        {slides}
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+      </Carousel>
+    </div>
+  );
+}
+
+export default MyCarousel

@@ -1,0 +1,88 @@
+.wrapper {
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin: 25px 50px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E85871;
+  border-radius: 25px;
+}
+
+.aboutSection {
+  display: flexbox;
+  max-width: 50vw;
+  margin: 25px;
+  padding: 25px;
+
+  font-size: 18px;
+  text-align: center;
+  
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.aboutSection img {
+  display: flexbox;
+  /* flex-shrink: inherit; */
+
+  width: 100%;
+  max-width: 600px;
+  max-height: auto;
+  border-radius: 10px;
+}
+
+.aboutSection h1 {
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.aboutSection button {
+  background-color: rgba(216, 233, 239, 0);
+  font-style: italic;
+
+  margin: 4px;
+
+  outline: none;
+  
+  border-color: #D8E9EF;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+.aboutSection button:hover {
+  background-color: rgba(216, 233, 239, 1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.aboutSection button:active {
+  transform: scale(1.1);
+}
+
+.aboutSection button:focus,
+.aboutSection button:visited {
+  background-color: rgba(216, 233, 239, 1);
+}
+
+.updateSection {
+  display: flexbox;
+  max-width: 70vw;
+  margin: 25px;
+  padding: 25px;
+
+  font-size: 18px;
+  text-align: center;
+  
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

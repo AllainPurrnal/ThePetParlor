@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,16 +12,16 @@ const Navbar = () => {
       <ul className="nav-items">
         <a href='/' id='logo'>ThePetParlor</a>
         <li id='navlink'>
-          <a href='/'>Register/Login</a>
+          <a>Register/Login</a>
         </li>
         <li id='navlink'>
-          <a href='/Contact'>Contact</a>
+          <NavLink to='/Contact' activeClassName="active"><a>Contact</a></NavLink>
         </li>
         <li id='navlink'>
-          <a href='/About'>About</a>
+          <NavLink to='/About' activeClassName="active"><a>About</a></NavLink>
         </li>
         <li id='navlink'>
-          <a href='/Services'>Services</a>
+          <NavLink to='/Services' activeClassName="active"><a>Services</a></NavLink>
         </li>
 
       </ul>
