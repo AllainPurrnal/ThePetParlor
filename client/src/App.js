@@ -18,12 +18,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Router>
-        {/* <Route exact path="/" component={Home} /> */}
-        <Route path="/Services" component={Services} />
-        <Route path="/About" component={About} />
-        <Route path="/Contact" component={Contact} />
-      </Router>
+        <Router>
+          <Route exact path="/" component={Home} />
+          <Route path="/Services" component={Services} />
+          <Route path="/About" component={About} />
+          <Route path="/Contact" component={Contact} />
+        </Router>
     </div>
   );
 }

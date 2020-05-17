@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // Site Components
 // import MyCarousel from '../../MyCarousel';
 
-const Home = (props) => {
+const Home = () => {
 
   return (
   <div>
