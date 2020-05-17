@@ -29,10 +29,9 @@ nav #logo {
 .nav-items li {
   display: inline-flex;
   float: right;
-  
   color: #E85871;
-  padding: 2px 25px;
   
+  padding: 2px 25px;
 }
 
 #navlink a {
@@ -52,7 +51,20 @@ nav a:hover {
   opacity: .6;
 }
 
-#navlink .active {
+#navlink .activeServices {
   font-style: italic;
   text-decoration: underline;
+  /* text-decoration-color: #4EA1D3; */
+}
+
+#navlink .activeAbout {
+  font-style: italic;
+  text-decoration: underline;
+  /* text-decoration-color: #91D5ED; */
+}
+
+#navlink .activeContact {
+  font-style: italic;
+  text-decoration: underline;
+  /* text-decoration-color: #454552; */
 }

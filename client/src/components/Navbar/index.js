@@ -14,14 +14,14 @@ const Navbar = () => {
         <li id='navlink'>
           <a>Register/Login</a>
         </li>
-        <li id='navlink'>
-          <NavLink to='/Contact' activeClassName="active"><a>Contact</a></NavLink>
+        <li className="contact" id='navlink'>
+          <NavLink to='/Contact' activeClassName="activeContact"><a>Contact</a></NavLink>
         </li>
-        <li id='navlink'>
-          <NavLink to='/About' activeClassName="active"><a>About</a></NavLink>
+        <li className="about" id='navlink'>
+          <NavLink to='/About' activeClassName="activeAbout"><a>About</a></NavLink>
         </li>
-        <li id='navlink'>
-          <NavLink to='/Services' activeClassName="active"><a>Services</a></NavLink>
+        <li className="services" id='navlink'>
+          <NavLink to='/Services' activeClassName="activeServices"><a>Services</a></NavLink>
         </li>
 
       </ul>

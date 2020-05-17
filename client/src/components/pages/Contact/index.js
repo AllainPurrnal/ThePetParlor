@@ -1,9 +1,12 @@
 import React from 'react';
+import './index.css';
 
 const Contact = () => {
 
   return (
-    <h1>Contacts!</h1>
+    <div className="wrapper contactWrap">
+      <h1>Contact!</h1>
+    </div>
   )
 }
 

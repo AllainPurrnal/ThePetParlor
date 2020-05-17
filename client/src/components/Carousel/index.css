@@ -1,5 +1,10 @@
-.carousel-wrapper {
-  display: block;
+.carousel-wrapper img {
+  display: flexbox;
 
-  position: relative;
+  width: 100%;
+  max-width: 800px;
+  max-height: auto;
+
+  margin: 20px;
+  border-radius: 10px;
 }
