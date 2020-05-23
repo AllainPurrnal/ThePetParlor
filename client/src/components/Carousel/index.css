@@ -2,9 +2,9 @@
   display: flexbox;
 
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   max-height: auto;
 
   margin: 20px;
-  border-radius: 10px;
+  border-radius: 25px;
 }

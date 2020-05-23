@@ -7,10 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 
 // Site Pages
-import Home from './components/pages/Home';
+// import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
+import Modal from './components/Modal';
 
 import './App.css';
 
@@ -19,7 +20,8 @@ function App() {
     <div className="App">
         <Router>
           <Navbar />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Modal} />
+          {/* <Route exact path="/" component={Home} /> */}
           <Route path="/Services" component={Services} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
