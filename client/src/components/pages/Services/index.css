@@ -1,3 +1,67 @@
 .servicesWrap {
-  border-color: #4EA1D3;
+  /* border-color: #4EA1D3; */
+  border-color: #E85871;
+}
+
+.service {
+  display: flexbox;
+  width: 75%;
+  max-height: 250px;
+
+  margin: 25px 0px;
+
+  /* Dev Style for seeing borders */
+  border: 2px solid #000;
+}
+
+.service img {
+  float: left;
+  margin: 15px;
+  justify-content: center;
+}
+
+.serviceHeader {
+  margin: 15px;
+}
+
+.serviceHeader h1 {
+  font-size: 24px;
+}
+
+.serviceHeader p {
+  font-size: 16px;
+}
+
+.serviceList li {
+  display: inline-flex;
+  font-size: 16px;
+  list-style-type: circle;
+}
+
+.btn button {
+
+  background-color: rgba(216, 233, 239, 0);
+  font-style: italic;
+
+  margin: 4px;
+
+  outline: none;
+  
+  border-color: #D8E9EF;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+.btn button:hover {
+  background-color: rgba(216, 233, 239, 1);
+}
+
+.btn button:focus,
+.btn button:visited {
+  background-color: rgba(216, 233, 239, 1);
+}
+
+.servicesWrap hr {
+  border-color: #E85871;
 }

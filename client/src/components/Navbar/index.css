@@ -57,18 +57,21 @@ nav #logo {
 }
 
 #navlink .activeServices {
+  /* color: #4EA1D3; */
   font-style: italic;
   text-decoration: underline;
   /* text-decoration-color: #4EA1D3; */
 }
 
 #navlink .activeAbout {
+  /* color: #91D5ED; */
   font-style: italic;
   text-decoration: underline;
   /* text-decoration-color: #91D5ED; */
 }
 
 #navlink .activeContact {
+  /* color: #454552; */
   font-style: italic;
   text-decoration: underline;
   /* text-decoration-color: #454552; */

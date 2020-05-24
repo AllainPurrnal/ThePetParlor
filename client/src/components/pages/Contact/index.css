@@ -1,3 +1,49 @@
 .contactWrap {
-  border-color: #4EA1D3;
+  display: grid;
+  gap: 1em;
+
+  padding: 25px 0;
+
+  /* border-color: #454552; */
+  border-color: #E85871;
+}
+
+.contactWrap h1 {
+  font-size: 24px;
+}
+
+.contactWrap > div {
+  border: 2px solid #000000;
+  padding: 2em;
+}
+
+.topSection {
+  display: grid;
+  grid-template-columns: .5fr 2fr;
+  gap: 1em;
+}
+
+.storeHours {
+  grid-row: 1/4;
+  
+  border: 2px solid #000000;
+  padding: 1em;
+  justify-content: start;
+}
+
+.storeHours li {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.storeLocation {
+  border: 2px solid #000000;
+  padding: 1em;
+
+  grid-row: 1/4;
+}
+
+.storeContact {
+  padding: 1em;
 }

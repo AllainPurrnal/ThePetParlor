@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 // Styles
 import './index.css';
 
-const Modal = () => {
+const AuthModal = () => {
 
 return (
   <div className="modalWrapper">
@@ -39,4 +39,4 @@ return (
 )
 }
 
-export default Modal;
+export default AuthModal;

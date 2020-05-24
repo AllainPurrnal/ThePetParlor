@@ -1,16 +1,16 @@
 .wrapper {
   font-family: 'Josefin Sans', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
 
   margin: 25px 50px;
 
   padding-left: 10px;
   padding-right: 10px;
 
+  /* border-color: #E85871; */
   border-style: solid;
   border-width: 2px;
-  /* border-color: #E85871; */
   border-radius: 25px;
 }
