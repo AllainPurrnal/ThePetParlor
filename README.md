@@ -1,9 +1,27 @@
 # ThePetParlor
 A Small Business specializing in pet hygiene care
 
-## Website Concept
-* We often think of our pets as friends or companions. They're often seen as cute, lovable, fluffy things that we could spend all day with. They are, for the most part, friendly.
+## Design Concept
+* The design concept of ThePetParlor is to invoke a feeling of friendliness and softness, much like our four-legged friends trotting around our homes. A contrast to the many designs filling the web, with harsh edges and and striking animations and images. The approach to design calls for minimalism but with the friendliness of curved lines and soft color palettes to bring a sense of ease to the user.
 
-* With the PetParlor website, I've taken the approach of making the page friendly, and non-aggressive. Trimming the corners for something seen as soft.
+## Development Changelog
+**26 May, 2020**
+* The current state of the website has the wireframe of key components as well as a "finished" navbar design.
 
-* The colors also play a role with this design idea. Opting for soft, pastel colors instead of the bright and vibrant colors that are very forward.
+* Page design will follow the navbar if differing colors to signify a change in page. Home page will have it's main color and so will the Services, About, and Contact page.
+
+* Home Page still needs to be updated to use CSS Grids
+
+* Home
+![Screenshot from 2020-05-26 13-32-59](https://user-images.githubusercontent.com/25943488/82947880-9c355980-9f55-11ea-800d-601d225ce1f3.png)
+
+* Services
+![Screenshot from 2020-05-26 13-33-09](https://user-images.githubusercontent.com/25943488/82947907-a9524880-9f55-11ea-8916-f7ffb0672287.png)
+
+* About
+![Screenshot from 2020-05-26 13-33-14](https://user-images.githubusercontent.com/25943488/82947930-b1aa8380-9f55-11ea-9c3e-badac836ebc4.png)
+
+![Screenshot from 2020-05-26 13-33-20](https://user-images.githubusercontent.com/25943488/82947946-b7a06480-9f55-11ea-995f-9d14c357e846.png)
+
+* Contact
+![Screenshot from 2020-05-26 13-33-24](https://user-images.githubusercontent.com/25943488/82947960-bd964580-9f55-11ea-9e62-8274f4b3ee8a.png)
