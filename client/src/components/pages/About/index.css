@@ -1,4 +1,52 @@
 .aboutWrap {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 2fr;
+  gap: 1em;
+
+  padding-top: 35px;
+  padding-bottom: 35px;
+
   /* border-color: #91D5ED; */
   border-color: #E85871;
+}
+
+/* Remove before final build! */
+.teamPicture, .background, .meetTheTeam,
+.teamHeader, .teamBody, .person {
+  border: 1px solid #000;
+}
+/* Remove before final build! */
+
+.meetTheTeam {
+  display: grid;
+  grid-template-rows: .5fr 1.5fr;
+  gap: 1em;
+
+  padding: 35px;
+}
+
+.teamBody {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* justify-content: space-evenly; */
+}
+
+.teamBody img, h1, p {
+  border-radius: 100%;
+
+  padding: 10px;
+  margin: auto;
+}
+
+.person {
+  display: grid;
+  padding: 10px;
+}
+
+.person1 {
+  grid-column: 1 / span 2;
+}
+
+.person2 {
+  grid-column: 3 / span 4;
 }
