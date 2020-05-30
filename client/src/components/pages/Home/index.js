@@ -6,55 +6,54 @@ import './index.css'
 // Site Components
 import MyCarousel from '../../Carousel';
 
-// <p>Lorem 1 ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna et ipsum ultrices aliquam. Aliquam sed finibus augue, maximus vehicula lectus. Pellentesque mollis aliquam lectus.</p>
-// <p>Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna et ipsum ultrices aliquam. Aliquam sed finibus augue, maximus vehicula lectus. Pellentesque mollis aliquam lectus.</p>
-// <p>Lorem 3 ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna et ipsum ultrices aliquam. Aliquam sed finibus augue, maximus vehicula lectus. Pellentesque mollis aliquam lectus.</p>
-
 const Home = () => {
-
-  // const tabChange = (n, id) => {
-  //   console.log(n)
-
-  // }
 
   return (
     <div className="wrapper homeWrap">
-      <section className="carouselSection">
+      <div className="carouselSection">
         <MyCarousel />
-      </section>
 
-      {/* <section className="updateSection">
-        <h1><span>News & Updates</span></h1>
-      </section> */}
+        {/* <div className="updateSection">
+          <h1><span>News & Updates</span></h1>
+        </div> */}
+      </div>
 
-      <section className="aboutSection">
+      <div className="aboutSection">
         <h1><span>Philosophy</span></h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna et ipsum ultrices aliquam. Aliquam sed finibus augue, maximus vehicula lectus. Pellentesque mollis aliquam lectus. Ut ultrices enim ac sapien congue eleifend. Proin nec egestas est. Sed a ligula imperdiet, vestibulum leo nec, malesuada tellus.</p>
           <NavLink to='/About'>
             <button>Learn More</button>
           </NavLink>
-      </section>
+      </div>
 
-      {/* <section className="serviceSection">
-        <div className="tabHeaders">
-          <button onClick={() => tabChange(1)}>
-            <h1>Option 1</h1>
-          </button>
+      <div className="serviceSection">
+        <h1><span>Services</span></h1>
+      </div>
 
-          <button onClick={() => tabChange(2)}>
-            <h1>Option 2</h1>
-          </button>
+      <div className="infoSection">
+        <div className="hours">
+          <h1>Hours</h1>
 
-          <button onClick={() => tabChange(3)}>
-            <h1>Option 3</h1>
-          </button>
+          <ul>
+            <li>Monday: 9:00am - 6:00pm</li>
+            <li>Tuesday: 9:00am - 6:00pm</li>
+            <li>Wednesday: 9:00am - 5:00pm</li>
+            <li>Thursday: 9:00am - 6:00pm</li>
+            <li>Friday: 9:00am - 3:00pm</li>
+            <li>Saturday/Sunday: Closed</li>
+          </ul>
         </div>
-        <div className="tabDesc">
-          <p id="opt1">Option 1</p>
-          <p id="opt2">Option 1</p>
-          <p id="opt3">Option 1</p>
+        
+        <div className="contactForm">
+          <h1><span>Contact Us</span></h1>
+          <form>
+            <p>Name:</p><input></input>
+            <p>Email Address:</p><input></input>
+            <p>Subject:</p><input></input>
+            <p>Message:</p><input></input>
+          </form>
         </div>
-      </section> */}
+      </div>
 
     </div>
   );
