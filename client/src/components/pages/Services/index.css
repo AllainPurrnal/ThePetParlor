@@ -64,12 +64,12 @@
   padding: 5px;
 }
 
-.serviceOption .btn {
+/* .serviceOption .btn {
   grid-row: 5;
-  display: grid;
+  display: inline-block;
   grid-row-end: auto;
-  justify-content: end;
-}
+  justify-content: right;
+} */
 
 .addService {
   display: grid;

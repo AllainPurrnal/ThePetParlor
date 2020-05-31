@@ -44,11 +44,12 @@ nav #logo {
   text-decoration: none;
 }
 
-/* nav a:hover {
+nav a:hover {
   text-decoration: none;
-} */
+}
 
-#navlink a:hover {
+#navlink a:hover, #navlink span:hover {
+  cursor: pointer;
   font-style: italic;
   transform: scale(1.1);
   transition-property: all 10s;
