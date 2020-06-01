@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+// Styles
 import './index.css';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Modal = ({ children, customClass, show, closeCallback }) => (
   <div className={`modal ${customClass}`} style={{ display: show ? 'block' : 'none'}}>
@@ -9,7 +12,7 @@ const Modal = ({ children, customClass, show, closeCallback }) => (
     <div className="modal_content">
       {children}
       <button title="Close" className="close_modal" onClick={closeCallback}>
-        <i className="fas fa-times"></i>
+        <FontAwesomeIcon icon={faTimes} />
       </button>
     </div>
   </div>
