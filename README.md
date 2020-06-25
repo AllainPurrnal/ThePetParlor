@@ -13,7 +13,7 @@ A Small Business specializing in pet hygiene care
 * The next goal is to finish the addition of Registration options and then move on to final design and placeholders.
 
 * Login Modal
-![Screenshot from 2020-06-25 14-14-02](https://user-images.githubusercontent.com/25943488/85796284-85b62580-b6ee-11ea-870b-d0d289c7dba1.png)
+![Screenshot from 2020-06-25 14-14-02](https://user-images.githubusercontent.com/25943488/85798562-8486f780-b6f2-11ea-9b2a-ee9f24cc4d64.png)
 
 **26 May, 2020**
 * The current state of the website has the wireframe of key components as well as a "finished" navbar design.
