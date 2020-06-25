@@ -1,4 +1,6 @@
 .authModal {
+  display: block;
+  align-self: center;
   padding: 10px;
 }
 
@@ -14,14 +16,20 @@
   font-weight: bold;
 }
 
+.emailInput, .passwordInput {
+  margin: 15px 15px;
+}
+
 .authModal label {
   color: #1A202C;
+  font-size: 22px;
 }
 
 .authModal input {
   width: 100%;
+  margin-top: 5px;
   margin-bottom: 10px;
-  padding-bottom: none;
+  /* padding-bottom: none; */
 
   border: 1px solid #000;
   border-radius: 25px;
@@ -30,7 +38,8 @@
 /* Sets padding inside the input field */
 .emailInput input[type=text],
 .passwordInput input {
-  padding: 0px 10px;
+  font-size: 18px;
+  padding: 5px 10px;
 }
 
 /* Removes outline box when input field is focused */
@@ -41,8 +50,10 @@
 .authModal button {
   background-color: rgba(216, 233, 239, 0);
   font-style: italic;
+  font-size: 16px;
 
-  margin: 14px 4px;
+  margin: 4px 4px;
+  padding: 5px 10px;
 
   outline: none;
   
