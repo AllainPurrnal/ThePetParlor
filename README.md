@@ -43,7 +43,7 @@ A Small Business specializing in pet hygiene care
 #### 26 May, 2020
 * The current state of the website has the wireframe of key components as well as a "finished" navbar design.
 
-* Page design will follow the navbar if differing colors to signify a change in page. Home page will have it's main color and so will the Services, About, and Contact page.
+* Page design will follow the navbar in differing colors to signify a change in page. Home page will have it's main color and so will the Services, About, and Contact page.
 
 * Home Page still needs to be updated to use CSS Grids
 
