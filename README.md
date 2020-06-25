@@ -4,11 +4,11 @@ A Small Business specializing in pet hygiene care
 ## Table of Contents
 * [Design Concept](https://github.com/AllainPurrnal/ThePetParlor#design-concept)
 
-* [Setup & Installation](https://github.com/AllainPurrnal/ThePetParlor#setup-&-installation)
+* [Setup & Installation](https://github.com/AllainPurrnal/ThePetParlor#setup--installation)
 
 * [Development Changelog](https://github.com/AllainPurrnal/ThePetParlor#development-changelog)
-  * [25 June, 2020]()
-  * [26 May, 2020]()
+  * [25 June, 2020](https://github.com/AllainPurrnal/ThePetParlor#25-june-2020)
+  * [26 May, 2020](https://github.com/AllainPurrnal/ThePetParlor#26-may-2020)
 
 ## Design Concept
 * The design concept of ThePetParlor is to invoke a feeling of friendliness and softness, much like our four-legged friends trotting around our homes. A contrast to the many designs filling the web, with harsh edges and and striking animations and images. The approach to design calls for minimalism but with the friendliness of curved lines and soft color palettes to bring a sense of ease to the user.
