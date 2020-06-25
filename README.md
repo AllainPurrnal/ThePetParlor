@@ -5,6 +5,16 @@ A Small Business specializing in pet hygiene care
 * The design concept of ThePetParlor is to invoke a feeling of friendliness and softness, much like our four-legged friends trotting around our homes. A contrast to the many designs filling the web, with harsh edges and and striking animations and images. The approach to design calls for minimalism but with the friendliness of curved lines and soft color palettes to bring a sense of ease to the user.
 
 ## Development Changelog
+**25 June, 2020**
+* A small update before I continue development.
+
+* The login popup modal is up and running, Registration option is still under development.
+
+* The next goal is to finish the addition of Registration options and then move on to final design and placeholders.
+
+* Login Modal
+![Screenshot from 2020-06-25 14-14-02](https://user-images.githubusercontent.com/25943488/85796284-85b62580-b6ee-11ea-870b-d0d289c7dba1.png)
+
 **26 May, 2020**
 * The current state of the website has the wireframe of key components as well as a "finished" navbar design.
 
@@ -12,16 +22,4 @@ A Small Business specializing in pet hygiene care
 
 * Home Page still needs to be updated to use CSS Grids
 
-* Home
-![Screenshot from 2020-05-26 13-32-59](https://user-images.githubusercontent.com/25943488/82947880-9c355980-9f55-11ea-800d-601d225ce1f3.png)
-
-* Services
-![Screenshot from 2020-05-26 13-33-09](https://user-images.githubusercontent.com/25943488/82947907-a9524880-9f55-11ea-8916-f7ffb0672287.png)
-
-* About
-![Screenshot from 2020-05-26 13-33-14](https://user-images.githubusercontent.com/25943488/82947930-b1aa8380-9f55-11ea-9c3e-badac836ebc4.png)
-
-![Screenshot from 2020-05-26 13-33-20](https://user-images.githubusercontent.com/25943488/82947946-b7a06480-9f55-11ea-995f-9d14c357e846.png)
-
-* Contact
-![Screenshot from 2020-05-26 13-33-24](https://user-images.githubusercontent.com/25943488/82947960-bd964580-9f55-11ea-9e62-8274f4b3ee8a.png)
+* Photos Archived on [flickr](https://www.flickr.com/photos/189053076@N02/albums/72157714859885368/with/50044490028/)
