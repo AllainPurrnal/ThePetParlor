@@ -18,7 +18,7 @@ A Small Business specializing in pet hygiene care
 
 * Clone the Repository to your local machine and cd into the folder
 
-* Once in the folder run: ``` npm i ``` and ``` npm run client-install ```
+* Once in the folder run: ` npm i ` and ` npm run client-install `
   * Running both commands should install all dependencies in the server and client package-json
 
 * After installation, run ` npm run dev `
