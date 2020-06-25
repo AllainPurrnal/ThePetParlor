@@ -1,16 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-
-const appts = require('./routes/api/appointments');
+require('dotenv').config();
 
 const app = express();
 
 // Bodyparser
-app.use(bodyParser.json());
+app.use(express.json());
 
 // DB Config
-const db = require('./config/key').mongoURI;
+const db = process.env.MONGODB_URI
 
 // Connect to MongoDB
 mongoose.connect(db, { useCreateIndex: true, useUnifiedTopology: true, useNewUrlParser: true })
@@ -18,7 +16,7 @@ mongoose.connect(db, { useCreateIndex: true, useUnifiedTopology: true, useNewUrl
   .catch(err => console.log(err))
 
 // Use Routes
-app.use('/api/appts', appts);
+app.use('/api/appts', require('./routes/api/appointments'));
 
 const port = process.env.port || 5000;
 
