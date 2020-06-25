@@ -15,9 +15,10 @@ const UserSchema = new Schema({
     type: String,
     required: true
   },
-  apptHistory: [
-    {type: String}
-  ]
+  history: {
+    type: Array,
+    required: false
+  }
 });
 
 module.exports = User = mongoose.model('user', UserSchema)
