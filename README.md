@@ -21,6 +21,11 @@ A Small Business specializing in pet hygiene care
 * Once in the folder run: ` npm i ` and ` npm run client-install `
   * Running both commands should install all dependencies in the server and client package-json
 
+* Before running the app, please obtain a [MongoDB Connection Link](https://www.mongodb.com/) for database functionality to work
+  1. Open up the sample.env file
+  2. Paste your connection link between the quotations
+  3. Save and rename the file to .env
+
 * After installation, run ` npm run dev `
   * This command will start both the server and client on host 5000 and 3000 respectively
 
