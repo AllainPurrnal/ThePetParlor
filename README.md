@@ -2,7 +2,9 @@
 A Small Business specializing in pet hygiene care
 
 ## Table of Contents
-* [Design Concept](https://github.com/AllainPurrnal/ThePetParlor#design-concept)
+* [Concept](https://github.com/AllainPurrnal/ThePetParlor#concept)
+
+* [Technology](https://github.com/AllainPurrnal/ThePetParlor#technology)
 
 * [Setup & Installation](https://github.com/AllainPurrnal/ThePetParlor#setup--installation)
 
@@ -10,8 +12,23 @@ A Small Business specializing in pet hygiene care
   * [25 June, 2020](https://github.com/AllainPurrnal/ThePetParlor#25-june-2020)
   * [26 May, 2020](https://github.com/AllainPurrnal/ThePetParlor#26-may-2020)
 
-## Design Concept
+## Concept
+**Design**
 * The design concept of ThePetParlor is to invoke a feeling of friendliness and softness, much like our four-legged friends trotting around our homes. A contrast to the many designs filling the web, with harsh edges and and striking animations and images. The approach to design calls for minimalism but with the friendliness of curved lines and soft color palettes to bring a sense of ease to the user.
+
+**Technology**
+* My goal for this website is to rely less on established front-end libraries like Bootstrap to increase my knowledge and agility when it comes to vanilla HTML and CSS styling. I want to make sure the app is as light as possible, using only the most necessary libraries and framework to get the job done.
+
+## Technology
+**Front-End**
+
+1. [React.js](https://reactjs.org/) - A JavaScript Library used to create user-interfaces
+2. [Axios](https://github.com/axios/axios) - Performs HTTP Requests to the back-end server
+    
+**Back-End**
+
+1. [Express.js](https://expressjs.com/) - Used to create the back-end server and api
+2. [MongoDB](https://www.mongodb.com/) - Document-based database to store user profiles and appointments
 
 ## Setup & Installation
 * Setup is simple and requires only a few commands to get up and runningg
